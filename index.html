@@ -7,7 +7,7 @@
 </head>
 <body>
 	<script>
-	document.querySelector(`body`).innerText = new Date().toLocaleString()
+	setInterval(() => document.querySelector(`body`).innerText = new Date().toLocaleString(), 1000)
 	</script>
 </body>
 </html>
